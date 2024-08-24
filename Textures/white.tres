@@ -1,0 +1,10 @@
+[gd_resource type="GradientTexture2D" load_steps=2 format=3 uid="uid://ds2jamwr7on4w"]
+
+[sub_resource type="Gradient" id="Gradient_djl87"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(1, 1, 1, 1)
+
+[resource]
+gradient = SubResource("Gradient_djl87")
+width = 32
+height = 32
