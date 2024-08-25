@@ -32,7 +32,7 @@ func _ready() -> void:
 			else:
 				solid_tiles[str(x)+";"+str(y)] = false
 
-func _input(event: InputEvent) -> void:
+func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
 		if event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 			if solid_tiles[str(int(event.position.x / 32))+";"+str(int(event.position.y / 32))] == false:
